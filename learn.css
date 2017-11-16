@@ -1,0 +1,91 @@
+/*文本全部改成大写*/
+text-transform:uppercase;
+/*文本全部改成小写*/
+text-transform:lowercase;
+/*首字母大写*/
+text-transform:capitalize;
+
+/*文本缩进*/
+text-indent：50px; 
+
+/*字与字之间间隔*/
+letter-spacing:2px;
+
+/* 设置文本方向（从右向左） */
+direction:rtl;
+
+/* 设置单词之间的间距 */
+word-spacing:30px;
+
+/* 一个元素内禁止文字换行 */
+white-space:nowrap;
+
+/* 设置内部文字图像垂直对齐 */
+vertical-align: center;
+
+/* 设置每一行展开为宽度相等，有外边对齐 */
+text-align:justify;
+
+/* 设置字体阴影 */
+text-shadow:2px 2px #F00000;
+
+/* 设置小型大写字母的字体显示文本 */
+font-variant:small-caps;
+
+/* 	
+	a:link - 正常，未访问过的链接
+	a:visited - 用户已访问过的链接
+	a:hover - 当用户鼠标放在链接上时
+	a:active - 链接被点击的那一刻 
+	注：
+	1、a:hover 必须在 a:link 和 a:visited 之后，需要严格按顺序才能看到效果
+	2、a:active 必须在 a:hover 之后。
+*/
+a:link {color:#FF0000;}
+a:visited {color:red;}  
+a:hover {color:blue;}
+a:active {color:green;}
+
+/* 创建链接框
+运用width和padding来展示链接框 */
+width：250px;
+padding: 40px;
+
+/* 列表中所有不同的列表项标记
+	css 2.1的值有：
+	disc | circle | square | decimal | decimal-leading-zero | 
+	lower-roman | upper-roman | lower-greek | lower-latin | upper-latin | 
+	armenian | georgian | none | inherit
+ */
+list-style-type:circle;
+
+
+/* 设置作为列表项的图像 */
+list-style-image:url('/img/text.jpg');
+
+/* 设置表格标题的位置 */
+/* caption-side:bottom; */
+
+/* border-style值:
+dotted 点线框  dashed：虚线框 groove:3D沟槽边界
+ridge 3D脊边界 inset 3D嵌入边框  outset 3D突出边框 */
+border-style: solid;
+
+/* 围绕一个元素，绘制一条线 与boder区分*/
+outline：green dotted red;
+
+/* 设置一个元素的可见尺寸 */
+clip:react(0,50px,100px,0);
+
+/* 使用滚动条显示元素内溢出的内容 */
+overflow:scroll;
+
+/* 隐藏溢出的内容 */
+overflow: hidden;
+
+/* 设置浏览器自动溢出处理 */
+overflow:auto;
+
+/* 使用括号内的url用content属性插入到每个链接后面 */
+/* content:"("attr(href)")"; */
+/* <p><a href="http://www.baidu.com">w3cschool</a></p> */
